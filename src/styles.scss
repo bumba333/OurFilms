@@ -1,1 +1,66 @@
-/* You can add global styles to this file, and also import other style files */
+h1{font-family:Merriweather,serif;font-size:48px;font-weight:900}
+h2{font-family:Merriweather,serif;font-size:30px;font-weight:700}
+h3{font-family:Merriweather,serif;font-size:22px;font-weight:700}
+h4{font-family:Merriweather,serif;font-size:20px;font-weight:700}
+h5{font-family:Merriweather,serif;font-size:19px;font-weight:700}
+h6{font-family:Merriweather,serif;font-size:17px;font-weight:700}
+p{font-family:'Open Sans',sans-serif;font-size:16px;font-weight:400}
+//---------------- Header CSS -------------------// 
+.navbarStyle{background-color:#030303}
+a.nav-link.active.navBalColourStyle,a.nav-link.navBalColourStyle{color:#fff!important}
+.navbar a{font-family:Merriweather,serif;font-size:14px;font-weight:700;text-decoration:none;color:#13304a}
+.textHighlight{color:#e9393b}
+//---------------- Footer CSS -------------------// 
+.footerCopyright{background-color:#030303;color:#fff}
+.copyrightStyle p{font-family:Merriweather,serif;font-size:12px;font-weight:700}
+.anchorStyle{text-decoration:none;color:#fff}
+//---------------- Carousel CSS -------------------// 
+.carousel-item.extraLarge{height:91vh;min-height:300px;background:no-repeat scroll center scroll;-webkit-background-size:cover;background-size:cover}
+.carousel-item.large{height:94vh;min-height:300px;background:no-repeat scroll center scroll;-webkit-background-size:cover;background-size:cover}
+.carousel-item.medium{height:92vh;min-height:300px;background:no-repeat scroll center scroll;-webkit-background-size:cover;background-size:cover}
+.carousel-item.small{height:40vh;min-height:300px;background:no-repeat scroll center scroll;-webkit-background-size:cover;background-size:cover}
+.carousel-item.xSmall{height:70vh;min-height:300px;background:no-repeat scroll center scroll;-webkit-background-size:cover;background-size:cover}
+.carousel-item::before{content:"";display:block;position:absolute;top:0;left:0;bottom:0;right:0;background:#000;opacity:.5}
+.carousel-caption{bottom:180px}
+.carousel-caption.mediumDevice{bottom:120px}
+.carousel-caption.smallDevice{bottom:60px}
+.carousel-caption.extraSmall{bottom:60px}
+.carousel-caption h5{font-size:100px;font-weight:900}
+.carousel-caption h5.mediumH5{font-size:60px;font-weight:900}
+.carousel-caption h5.smallH5{font-size:40px;font-weight:900}
+.carousel-caption h5.extraSmallH5{font-size:40px;font-weight:900}
+.carousel-caption p{font-size:18px;top:2rem}
+.carousel-caption p.smallP{font-size:14px;top:2rem}
+.carousel-caption p.extraSmallP{font-size:14px;top:2rem}
+.sliderBtn{margin-top:30px}
+.btn1{background-color:#e9393b;color:#fff!important;border-radius:0;padding:1.5rem 2rem;font-family:Merriweather,serif;font-weight:700;font-size:1rem;margin-right:15px}
+.btn1:hover{background-color:#af0014}
+.btn2{background-color:#fff;color:#030303;border-radius:0;padding:1.5rem 2rem;font-family:Merriweather,serif;font-weight:700;font-size:1rem}
+.btn2:hover{background-color:#2e2e2e;color:#fff}
+.btn3{background-color:#e9393b;color:#fff!important;border-radius:0;padding:1.5rem 2rem;font-family:Merriweather,serif;font-weight:700;font-size:1rem;}
+.btn3:hover{background-color:#af0014}
+.btn4{background-color:#2e2e2e;color:#fff!important;border-radius:0;padding:1.5rem 2rem;font-family:Merriweather,serif;font-weight:700;font-size:1rem}
+.btn4:hover{background-color:#030303;}
+.extraSmallButton1{background-color:#e9393b;color:#fff;border-radius:0;padding:.5rem 1rem;font-family:Merriweather,serif;font-weight:700;font-size:.5rem;margin-right:10px}
+.extraSmallButton1:hover{background-color:#af0014}
+.extraSmallButton2{background-color:#fff;color:#030303;border-radius:0;padding:.5rem 1rem;font-family:Merriweather,serif;font-weight:700;font-size:.5rem}
+.extraSmallButton2:hover{background-color:#2e2e2e;color:#fff}
+.quoteCarouselStyle{background-color:#fff!important}
+//---------------- Home Page CSS -------------------// 
+.aboutUs{background-color:#e6e6e6;color:#2e2e2e}
+.upcomingTreks{background:transparent url('./assets/images/background.jpg');background-repeat:no-repeat;background-size:cover;background-position:center;background-attachment:fixed;color:#2e2e2e}
+.banner1{background:transparent url('./assets/images/banner-1.jpg');background-repeat:no-repeat;background-size:cover;background-position:center;background-attachment:fixed;color:#fff}
+.banner2{background:transparent url('./assets/images/banner-2.jpg');background-repeat:no-repeat;background-size:cover;background-position:center;background-attachment:fixed;color:#fff}
+.banner3{background:transparent url('./assets/images/banner-3.jpg');background-repeat:no-repeat;background-size:cover;background-position:center;background-attachment:fixed;color:#fff}
+.bulbStyle{font-size:96px}
+.whiteBackground{background-color:#fff}
+//---------------- Scroll To Top Button -------------------// 
+.scrollTopBtn{position:fixed;bottom:15px;right:15px;background-color:#e9393b!important;color:#fff!important;border-radius:50%;width:40px;height:40px}
+.scrollTopBtn:hover{background-color:#af0014!important}
+//---------------- WhatsApp Button -------------------// 
+.whatsAppBtn{position:fixed;bottom:15px;left:15px;background-color:#25d366!important;color:#fff!important;border-radius:50%;width:40px;height:40px}
+.whatsAppBtn:hover{background-color:#00a038!important}
+.iconFontSize{font-size:18px}
+//---------------- Facebook Button -------------------// 
+.facebookBtn{background-color:#166fe5!important;color:#fff!important}
+.facebookBtn:hover{background-color:#0045b2!important}
